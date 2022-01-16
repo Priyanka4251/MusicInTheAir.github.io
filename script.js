@@ -11,11 +11,11 @@ let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
     {songName: "Rim-jhim-e-dharate", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Rim-jhim-e-dhara", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "Rim-jhim-dharate", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Rim-e-dharate", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "jhim-e-dharate", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Rim-dharate", filePath: "songs/6.mp3", coverPath: "covers/6.jpg"},
+    {songName: "Rim-jhim-e-dharate", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
+    {songName: "Rim-jhim-e-dharate", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
+    {songName: "Rim-jhim-e-dharate", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
+    {songName: "Rim-jhim-e-dharate", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
+    {songName: "Rim-jhim-e-dharate", filePath: "songs/6.mp3", coverPath: "covers/6.jpg"},
     
 ]
 songItems.forEach((element, i)=>{ 
