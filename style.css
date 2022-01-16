@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Mochiy+Pop+P+One&family=The+Nautigal&family=Titillium+Web:wght@200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+nav ul{
+    font-family: 'Barlow Condensed', sans-serif;    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 45px;
+    background-color: black;
+    position:;
+}
+nav ul li{
+    color: white;
+    margin-left: 10px;
+}
+.brand img{
+    width: 38px;
+    
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;    width: 70%;
+    margin: 12px auto;
+    border-radius: 14px;
+    padding: 12px 12px;
+    background-image: url(/sopifybg.jpg);
+}
+.bottom{
+    position: sticky;
+    height: 65px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.icons{
+    margin-top: 6px;
+}
+.icons i{
+    padding: 0 14px;
+    cursor: pointer;
+}
+.icons i:hover{
+    font-weight: bolder;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songItem{
+    height: 68px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.219);
+    width: 90%;
+    color: white;
+    margin: 12px 0;
+    border-radius: 12px;
+}
+.songItemContainer{
+    margin: 0 108px;
+}
+.songItem img{
+    width: 98px;
+    margin: 0 6px;
+    border-radius: 34px;
+}
+.timestamp{
+    margin-left: 53px;
+}
+i.far.songItemPlay.fa-2x.fa-play-circle{
+        cursor: pointer;
+}
+.songInfo {
+    color:white;
+    margin-bottom: 2vh;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.1s ease-in;
+}
+
+@media (max-width:800px) {
+          .songItemContainer{
+            margin: 0 24px;
+                              }
+}
+
